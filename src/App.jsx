@@ -10,7 +10,7 @@ import { LoginPage } from "./pages/LoginPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ghpages_p3">
       <Routes>
         {/* Public Route */}
         <Route path="/" element={<LoginPage />} />
